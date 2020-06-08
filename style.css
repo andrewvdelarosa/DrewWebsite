@@ -8,19 +8,18 @@ html {
  	}
  	
 main{
-	padding: 50px;
-	margin: 50px;
 	background-color: white;
 	border-radius: 90px;
-	
+    padding: 50px;
+    margin: 50px;
 	}
 
 .profilepic{
 	width: 40%;
   	float: right;
   	border-radius: 90px;
-    margin-left: 25px;
-    margin-bottom: 25px; 
+    padding-left: 25px;
+    padding-bottom: 25px; 
 	}
 
 .center{
