@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+
+html { 
+	font-family: 'Josefin Sans', sans-serif;
+ 	background: rgb(233,170,113);
+	background: linear-gradient(0deg, rgba(233,170,113,0.43881302521008403) 0%, rgba(115,207,255,1) 100%);
+ 	}
+ 	
+main{
+	padding: 30px 50px;
+	margin: 5% 10%;
+	background-color: white;
+	border-radius: 90px;
+	
+	}
+
+.profilepic{
+	width: 45%;
+  	float: right;
+  	border-radius: 90px;
+  	margin: 0px 0px 0px 2%;
+	}
+
+.center{
+  	text-align: center;
+	}
+
+header{
+	color: white; 
+	font-family: 'Monoton', cursive;
+	margin: 0px 60px;
+	}
+footer{
+	color: white; 
+}
+h1{
+	font-size: 75px;
+	}
+
+h2{
+	font-size: 40px;
+	}
+
+p{
+	font-size: 20px;
+	}
