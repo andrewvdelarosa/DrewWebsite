@@ -8,10 +8,12 @@ html {
  	}
  	
 main{
+    
 	background-color: white;
 	border-radius: 90px;
     padding: 50px;
     margin: 50px;
+    min-width: 500px;
 	}
 
 .profilepic{
