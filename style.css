@@ -9,7 +9,7 @@ html {
  	
 main{
     
-	background-color: white;
+    background-color: #F7F8F2;
 	border-radius: 90px;
     padding: 50px;
     margin: 50px;
@@ -30,7 +30,9 @@ header{
 	padding: 0px 50px 0px 50px;
 	}
 footer{
-	color: white; 
+	color: white;
+    text-align: center;
+    margin: 50px;
 }
 h1{
 	font-size: 60px;
