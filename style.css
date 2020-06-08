@@ -9,17 +9,16 @@ html {
  	
 main{
 	padding: 50px;
-	margin: 50px 50px;
+	margin: 50px;
 	background-color: white;
 	border-radius: 90px;
 	
 	}
 
 .profilepic{
-	width: 50%;
+	width: 40%;
   	float: right;
   	border-radius: 90px;
-  	margin: 0px 0px 0px 2%;
 	}
 
 .center{
@@ -29,7 +28,7 @@ main{
 header{
 	color: white; 
 	font-family: 'Monoton', cursive;
-	margin: 0px 60px;
+	margin: 0px 0px 0px 50px;
 	}
 footer{
 	color: white; 
