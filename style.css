@@ -7,7 +7,7 @@ html {
 	background: linear-gradient(0deg, rgba(233,170,113,0.43881302521008403) 0%, rgba(115,207,255,1) 100%);
  	}
  	
-section{
+main{
 	background-color: white;
 	border-radius: 90px;
     padding: 50px;
@@ -22,14 +22,10 @@ section{
     padding-bottom: 25px; 
 	}
 
-.center{
-  	text-align: center;
-	}
-
 header{
 	color: white; 
 	font-family: 'Monoton', cursive;
-	margin: 0px 0px 0px 50px;
+	padding: 0px 0px 0px 50px;
 	}
 footer{
 	color: white; 
