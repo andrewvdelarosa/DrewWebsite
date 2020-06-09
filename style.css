@@ -1,21 +1,22 @@
+/*fonts imported from google.com*/
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
 
+/* gradient background and font for the entire page*/
 html { 
 	font-family: 'Josefin Sans', sans-serif;
  	background: rgb(233,170,113);
 	background: linear-gradient(0deg, rgba(233,170,113,0.43881302521008403) 0%, rgba(115,207,255,1) 100%);
  	}
- 	
+ /* table background color, set min-width for cellphone view */	
 main{
-    
     background-color: #F7F8F2;
 	border-radius: 90px;
     padding: 50px;
     margin: 50px;
     min-width: 250px;
 	}
-
+/* needed to resize profile picture. and set to the right.*/
 .profilepic{
 	height: 400px;
   	float: right;
@@ -23,17 +24,19 @@ main{
     padding-left: 25px;
     padding-bottom: 25px; 
 	}
-
+/* logo */
 header{
 	color: white; 
 	font-family: 'Monoton', cursive;
 	padding: 0px 50px 0px 50px;
 	}
+/* style for copyright*/
 footer{
 	color: white;
     text-align: center;
-    margin: 50px;
-}
+	margin: 50px;
+	}
+/* Needed to adjust font sizes*/
 h1{
 	font-size: 60px;
 	}
@@ -45,3 +48,8 @@ h2{
 p{
 	font-size: 20px;
 	}
+
+a:link 		{color: #42BAFF;}
+a:visited 	{color: #716320;}
+a:hover 	{color:	#E9B474;}
+a:active	{color:	#42BAFF;}
