@@ -5,7 +5,6 @@
 /* gradient background and font for the entire page*/
 html { 
 	font-family: 'Josefin Sans', sans-serif;
- 	background: rgb(233,170,113);
 	background: linear-gradient(0deg, rgba(233,170,113,0.43881302521008403) 0%, rgba(115,207,255,1) 100%);
 	 }
 	 
