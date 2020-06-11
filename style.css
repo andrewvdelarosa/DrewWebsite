@@ -11,7 +11,7 @@ html {
  /* table background color, set min-width for cellphone view */	
 main{
     background-color: #F7F8F2;
-	border-radius: 10%;
+	border-radius: 90px;
     padding: 50px;
     margin: auto;
 	min-width: 250px;
