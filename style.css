@@ -21,6 +21,7 @@ main{
 
 /* needed to resize profile picture. and set to the right.*/
 .profilepic{
+	
 	height: 400px;
   	float: right;
   	border-radius: 90px;
