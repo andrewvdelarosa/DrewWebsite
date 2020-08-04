@@ -10,54 +10,139 @@ html {
 	 
  /* table background color, set min-width for cellphone view */	
 main{
-    background-color: #F7F8F2;
-	border-radius: 90px;
-	padding: 50px;
-    margin: auto;
-	min-width: 250px;
-	max-width: 900px;
+	background-color: #F7F8F2;
+	margin: 5%;
+	padding: 5%;
 	}
 
 
-/* needed to resize profile picture. and set to the right.*/
-.profilepic{
-	
-	height: 400px;
-  	float: right;
-  	border-radius: 90px;
-    padding-left: 25px;
-    padding-bottom: 25px; 
-	}
 
 /* logo */
-header{
-	color: white; 
-	font-family: 'Monoton', cursive;
-	padding: 0px 50px 0px 50px;
-	}
-
-/* style for copyright*/
-footer{
-	color: white;
-    text-align: center;
-	margin: 50px;
-	}
-
-/* Needed to adjust font sizes*/
-h1{
-	font-size: 60px;
-	}
-
-h2{
+header h1{
 	font-size: 40px;
-	}
+	font-family: monoton;
+	color: white;
+	text-align: center;
+	margin: 0;
+}
 
-p{
-	font-size: 20px;
+
+header nav{
+    display: flex;
+    justify-content: center;
+
+}
+
+header nav ul{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    display: flex;
+    padding-left: 0;
+    list-style: none;
+
+}
+
+header nav ul li a{
+    color: white;
+    text-decoration: none;
+    margin: 0 20px 0 0;
+
+}
+
+header nav ul li :last-child a{
+    margin-right: 0;
+
+}
+/* style for copyright*/
+footer p{
+	color: white;
+	text-align: center;
+	margin: 3%;
 	}
 
 /*Styled Links*/
 a:link 		{color: #42BAFF;}
-a:visited 	{color: #716320;}
-a:hover 	{color:	#E9B474;}
+a:visited 	{color: #fffff;}
 a:active	{color:	#42BAFF;}
+
+/* Needed to adjust font sizes*/
+
+
+main h2{
+	font-size: 30px;
+	}
+
+main p{
+	font-size: 15px;
+	}
+
+.group {
+		display: flex;
+		flex-direction: column;
+		
+	  
+	  }
+.item1{
+		
+		flex: 2;
+		
+		
+	  }
+
+.item2{ 
+		
+		flex: 1;
+	  }
+
+.group img{
+	width: 100%;
+	max-width:600px;
+	px;
+
+}
+/* contact flex-box*/
+
+.center{
+	text-align: center;
+}
+ol li{
+	margin: 10px;
+	list-style-type: none;
+}
+
+@media all and (min-width: 666px) {
+
+	header{
+        display: flex;
+        justify-content: space-between;
+        padding: 0;
+
+    }
+	header h1{
+		font-size: 40px;
+        margin: 14px;
+        padding-top: 0;
+	}
+	header nav{
+        margin: 25px;
+	}
+	
+	header nav ul li a:hover{
+
+        color: #4D6966;
+	}
+	
+
+  
+	.group {
+	  flex-direction: row;
+	  
+	}
+  
+	main{
+		margin: 0 15%;
+	}
+	.item2{
+		padding: 0 5%;
+	}
+  }

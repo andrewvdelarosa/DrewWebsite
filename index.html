@@ -1,72 +1,119 @@
 <!DOCTYPE html>
 <html>
 
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width">
-        <title>Drew|Thinkful</title>
-        <link href="style.css" rel="stylesheet" type="text/css"/>
-    </head>
-    
-    <body>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Drew|Thinkful</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
 
-        <!--Logo-->
+<body>
 
-        <header>
-            <h1>Drew's Webpage</h1>
-        </header>
+    <!--Logo-->
 
-        <main>
+    <header>
+        <h1>Drew's Webpage</h1>
+        <nav>
+            <ul id="menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#portfolio">Porftolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
-            <!--intro-->
+    <main>
 
-            <section1>
+        <!--intro-->
 
-                <!--profile picture set to right and resized in CSS-->
+        <section>
+            <div class="group">
 
-                <img src="images/profilePic.jpeg" alt="profile picture" class="profilepic">
-                <h2>Hi, I'm Drew.</h2>
-                <p>I currently live in San Jose, California. </p>
-                <p>I love to keep physically fit. Weight lifting has been one of my favorite ways of relieving stress.</p>
-                <p>I also love to ride my motorcycle. Sometimes when you’re leaning into turns, it feels like you're flying.</p>
-            </section1>
-        <hr>
 
-            <!-- About Me -->
-            
-            <section2>
+                <div class="item1">
+                    <img src="images/profilePic.jpeg" alt="profile picture">
+                </div>
+                <div class="item2">
+                    <h2>Hi, I'm Drew.</h2>
+                    <p>I currently live in San Jose, California. </p>
+                    <p>I love to keep physically fit. Weight lifting has been one of my favorite ways of relieving
+                        stress.</p>
+                    <p>I also love to ride my motorcycle. Sometimes when you’re leaning into turns, it feels like you're
+                        flying.</p>
+                </div>
+
+        </section>
+
+        <!-- About Me -->
+
+        <section id="about">
+            <div class="item2">
                 <h2>About Me</h2>
-                    <h3>I'm a recruit in Thinkful's Software Engeering Bootcamp.</h3>
-                    <p>I chose <a href="https://www.thinkful.com" target="_blank">Thinkful</a> because:</p>
-                    <ul>
-                        <li>They have an ISA with living stipend</li>
-                        <li>1 on 1 mentoring</li>
-                        <li>Job guarantee</li>
-                    </ul>
-                    <p>I have many different facets. I have worked as a Makeup-artist and Hairstylist in cosmetology, to working one of the dirtiest jobs in the world: a Pipe-fitter for sewage plants. My latest venture was building cars at Tesla.</p>
-                    <p>Back when myspace was still around, I would stay up for hours learning about HTML and designing my page. I think its fun. Time flies when you’re having fun.  </p>
-                    <p>There's unlimited amount of documentation and resources on how to solve a problem. You can solve anything if you just know where to look. The best way is working in a team. They can see things from a different perspective, and maybe see things that you may have over looked. When working in a team, communication is key to getting the job done efficiently. I would like my future endeavors to be part of a team.</p>
-            </section2>
+                <h3>I'm a recruit in Thinkful's Software Engeering Bootcamp.</h3>
+                <p>I chose <a href="https://www.thinkful.com" target="_blank">Thinkful</a> because:</p>
+                <ul>
+                    <li>They have an ISA with living stipend</li>
+                    <li>1 on 1 mentoring</li>
+                    <li>Job guarantee</li>
+                </ul>
+                <p>I have many different facets. I have worked as a Makeup-artist and Hairstylist in cosmetology, to
+                    working one of the dirtiest jobs in the world: a Pipe-fitter for sewage plants. My latest venture
+                    was building cars at Tesla.</p>
+                <p>Back when myspace was still around, I would stay up for hours learning about HTML and designing my
+                    page. I think its fun. Time flies when you’re having fun. </p>
+                <p>There's unlimited amount of documentation and resources on how to solve a problem. You can solve
+                    anything if you just know where to look. The best way is working in a team. They can see things from
+                    a different perspective, and maybe see things that you may have over looked. When working in a team,
+                    communication is key to getting the job done efficiently. I would like my future endeavors to be
+                    part of a team.</p>
+
+        </section>
         <hr>
-            
-            <!-- contact added linkedin profile-->
 
-            <section3>
+        <!-- Portfolio-->
+
+        <section id="portfolio">
+            <div class="item2">
+                <h2>Portfolio<h2>
+
+
+        </section>
+        <hr>
+
+
+        <!-- contact added linkedin profile-->
+
+        <section id="contact">
+            <div class="item2">
+                <form action="https://formspree.io/mqkyngvn" method="POST">
+                    <label>Name:<input type="text" name="name"></label>
+                    <label>Your email:<input type="text" name="_replyto"></label>
+                    <label>Your message:<textarea name="message"></textarea></label>
+
+                    <!-- your other form fields go here -->
+
+                    <button type="submit">Send</button>
+                </form>
+            </div>
+            <div class="item1">
                 <h2>Contact</h2>
-                <h3>Please feel free to contact me:</h3>
                 <ol>
-                    <li>E-mail: andrewvdelarosa@gmail.com</li>
                     <li><a href="https://github.com/andrewvdelarosa" target="_blank">GitHub</a></li>
-                    <li><a href="https://repl.it/@AndrewDela1" target="_blank">Repl.it</a></li>
-                    <li><a href="https://www.linkedin.com/in/andrew-dela-rosa-37aa7013a/" target="_blank">Linkedin</a></li>
+                    <li><a href="https://www.linkedin.com/in/andrew-dela-rosa-37aa7013a/" target="_blank">Linkedin</a>
+                    </li>
                 </ol>
-            </section3> 
-        </main>
+            </div>
+            
+        </section>
+    </main>
 
-        <!--Copyright-->
+    <!--Copyright-->
 
-        <footer>
+    <footer>
         <p>&copy; Drews Designs</p>
-        </footer>
-    </body>
+    </footer>
+</body>
+
 </html>
