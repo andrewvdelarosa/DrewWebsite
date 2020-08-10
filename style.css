@@ -79,6 +79,9 @@ main ol li{
     font-family: 'Exo 2', sans-serif;
     list-style: none;
 }
+.intro{
+    margin:5%;
+}
 
 .imgsize{
     width: 100%;
