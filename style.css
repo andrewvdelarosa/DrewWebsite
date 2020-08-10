@@ -151,7 +151,9 @@ main ol li{
         
     }
  
-
+    .languages{
+        justify-content: space-evenly;
+    }
 
 
 
