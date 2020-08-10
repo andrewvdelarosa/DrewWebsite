@@ -85,7 +85,6 @@ main ol li{
 }
 .languages{
     display: flex;
-    flex-direction: row;
     justify-content: space-evenly;
 } 
    
@@ -93,12 +92,9 @@ main ol li{
     max-height: 100px; 
 }
 
-.intro{
-    padding: 0 5%;
-}
 
 .about{
-    padding: 5%;
+    margin: 5%;
 }
 
 .contact{
@@ -141,45 +137,32 @@ main ol li{
     
     .item1{
         flex: 1;
-        max-height: 400px;
+        
         
     }
 
     .item2 {
         flex: 2;
         margin-left: 5%;  
-        padding: 15px;
         width: 100%;
-
         min-width: 200px;
         max-height: 400px;
         overflow: scroll;
         
     }
  
-    .languages{
-        justify-content: flex-end;
-        display: flex;
-        margin-top: 50px;
-        width: 80%;
-        
-        
-    } 
 
-    .languages img{
-        max-height: 150px; 
-    }
+
 
 
     .about{
         display: flex;
-        flex-direction: row;
         align-items:center ;
         
     } 
 
     .intro{
-        padding: 2% 30% 2% 30%;
+        margin: 2% 30% 2% 30%;
     }
 
     .contact{
