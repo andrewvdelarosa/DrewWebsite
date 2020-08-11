@@ -1,0 +1,22 @@
+ 
+
+html{
+    background-color: pink;
+    background-image: url(images/cactus.jpg);
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    }
+
+header{ 
+    color: white;
+    
+    }
+
+main{background-color: white;
+    }
+
+footer{
+    color: white;
+    text-align: center;
+    }
+
