@@ -1,39 +1,39 @@
-'use strict';
-function entry() {
+// 'use strict';
+// function entry() {
 
-    $('#js-shopping-list-form').submit(function (event) {
-        event.preventDefault();
-        const inputitem = $('#shopping-list-entry').val();
-        $('#shopping-list-entry').val("");
-        //this clears the input that val is called "pushes an empty string " val()=extract value
-        // let result=[];
-        const result = `<li>
-        <span class="shopping-item">${inputitem}</span>
-        <div class="shopping-item-controls">
-          <button class="shopping-item-toggle">
-            <span class="button-label">check</span>
-          </button>
-          <button class="shopping-item-delete">
-            <span class="button-label">delete</span>
-          </button>
-        </div>
-      </li>`;
+//     $('#js-shopping-list-form').submit(function (event) {
+//         event.preventDefault();
+//         const inputitem = $('#shopping-list-entry').val();
+//         $('#shopping-list-entry').val("");
+//         //this clears the input that val is called "pushes an empty string " val()=extract value
+//         // let result=[];
+//         const result = `<li>
+//         <span class="shopping-item">${inputitem}</span>
+//         <div class="shopping-item-controls">
+//           <button class="shopping-item-toggle">
+//             <span class="button-label">check</span>
+//           </button>
+//           <button class="shopping-item-delete">
+//             <span class="button-label">delete</span>
+//           </button>
+//         </div>
+//       </li>`;
 
-        $(".shopping-list").append(result)
-        $(buttons)
-    })
-}
+//         $(".shopping-list").append(result)
+//         $(buttons)
+//     })
+// }
 
-function buttons(){
-    $('.shopping-item-delete').on('click', function (event){
-        $(this).closest('li').remove()
-    })
-    $('.shopping-item-toggle').on('click', function(event){
-        $(this).closest('li').toggleClass('shopping-item').toggleClass('shopping-item__checked')
-    })
-}
-$(entry) //invokefunction
-$(button)
+// function buttons(){
+//     $('.shopping-item-delete').on('click', function (event){
+//         $(this).closest('li').remove()
+//     })
+//     $('.shopping-item-toggle').on('click', function(event){
+//         $(this).closest('li').toggleClass('shopping-item').toggleClass('shopping-item__checked')
+//     })
+// }
+// $(entry) //invokefunction
+// $(button)
 //ID starts with hash "#"
 //Class starts with "."
 
@@ -72,3 +72,4 @@ $(button)
 // }
 // $(main)
 // $(buttons)
+
