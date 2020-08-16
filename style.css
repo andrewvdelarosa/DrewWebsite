@@ -58,7 +58,7 @@ header nav ul li :last-child a{
 
 /*---------- main fonts ------------*/
 
-main h2{
+main h1, h2{
     font-size: 30px;
     font-family: 'montserrat', sans-serif; 
     }
