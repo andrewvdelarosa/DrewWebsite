@@ -8,6 +8,7 @@
 body, html{
     height: 100%;
     margin:0;
+    padding: 0;
     width: 100%;
 }
 
@@ -44,41 +45,20 @@ header nav ul li a{
     text-decoration: none;
     margin: 0 20px 0 0;
 
-
 }
 
 header nav ul li :last-child a{
     margin-right: 0;
-
 }
 
 
-/* ------------Hero image ------------------*/
-.hero-image {
-    background-image:url("images/profilePic.jpeg");
-    height: 50%;
-    background-position: top;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-  }
 
-  .hero-text {
-    font-family: 'Exo 2', sans-serif;
-    font-size: 30px;
-    text-align: center;
-    position: absolute;
-    top: 10%;
-    left: 75%;
-    transform: translate(-30%, -30%);
-    color: white;
-  }
 
 /*---------- main fonts ------------*/
 
 main h2{
     font-size: 30px;
-    font-family: 'montserrat', sans-serif;
+    font-family: 'montserrat', sans-serif; 
     }
     
 main h3{
@@ -89,21 +69,23 @@ main h3{
 main p{
     font-size: 18px;
     font-family: 'Exo 2', sans-serif;
-    }
+}
 
 /*--------- list fonts --------*/
-    
-main ul li{
+.about{
+    margin: 5%;
+}
+
+.about ul li{
     font-size: 18px ;
     font-family: 'Exo 2', sans-serif;
 }
 
-main ol li{
+.about ol li{
     font-size: 18px;
     font-family: 'Exo 2', sans-serif;
     list-style: none;
 }
-
 
 .imgsize{
     width: 100%;
@@ -117,55 +99,47 @@ main ol li{
     max-height: 100px; 
     margin-bottom: 20px;
 }
-
-
-
-
-.about{
-    margin: 5%;
-}
-
-
+/* contact section  */
 
 .contact{
-    width: 100%;
     background-color: #42BAFF;
     color: white;
-    height: 100%;
-    font-family: 'Exo 2', sans-serif;
-    
+    font-family: 'Exo 2', sans-serif;    
 }
+
 .contact h2{
     text-align: center;
     margin: 0;
 }
-
 .contactbox{
     display: flex;
-    flex-direction: row;
-    padding: 0 5%;
-}
-
-.contactbox ol{
-    padding: 0;
+    /* flex-wrap: nowrap; */
+    justify-content: space-evenly;
 }
 .links{
-    flex:1;
-}
-
-.contactform{
-    padding-top: 25px;
     flex: 1;
 }
-.contactbox ol li a img{
-    max-width: 50px;
+
+.links ol{
+   padding: 5%; 
+}
+.links img{
+    max-width: 70px;
 }
 
-.nameemail{
-    flex-direction: column;
+.contactbox ol, li{
+    list-style: none;
+    
 }
-.forms{
-    display: flex;
+.contactform{
+    flex: 2;
+}
+
+.contactform  input, textarea{
+    width: 80%;
+}
+.center{
+    text-align: center;
 }
 
 
@@ -198,41 +172,21 @@ main ol li{
         margin-left: 25px;
     }
 
-    /* HeroImage  */
-
-    .hero-image {
-        background-image:url("images/profilePic.jpeg");
-        height: 50%;
-        background-position: top;
-        background-repeat: no-repeat;
-        background-size: cover;
-        position: relative;
-      }
-    
-      .hero-text {
-        font-family: 'Exo 2', sans-serif;
-        font-size: 30px;
-        text-align: center;
-        position: absolute;
-        top: 40%;
-        left: 75%;
-        /* transform: translate(-30%, -30%); */
-        color: white;
-        
-      }
+ 
  
     .item1{
         flex: 1;
+        min-width: 350px;
         
         
     }
 
     .item2 {
-        flex: 2;
+        flex: 3;
         margin-left: 5%;  
         width: 100%;
         min-width: 200px;
-        max-height: 400px;
+        height: 500px;
         overflow: scroll;
         
     }
@@ -257,5 +211,8 @@ main ol li{
         color: white;
     }
        
+    .links ol{
+        margin: 0 50%; 
+     }
     
 }    
