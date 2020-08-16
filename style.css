@@ -24,7 +24,8 @@ header h1{
 	font-family: monoton;
 	color: white;
 	text-align: center;
-	margin: 0;
+    margin: 0;
+    text-shadow: 2px 2px 4px rgb(79, 94, 182);
 }
 
 header nav{
@@ -38,6 +39,7 @@ header nav ul{
     display: flex;
     padding-left: 0;
     list-style: none;
+
 }
 
 header nav ul li a{
@@ -89,6 +91,7 @@ main p{
 
 .imgsize{
     width: 100%;
+    border-radius: 15px;
 }
 .languages{
     display: flex;
@@ -98,6 +101,7 @@ main p{
 .languages img{
     max-height: 100px; 
     margin-bottom: 20px;
+
 }
 /* contact section  */
 
