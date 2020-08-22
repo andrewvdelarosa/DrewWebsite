@@ -139,9 +139,31 @@ main p{
     flex: 2;
 }
 
-.contactform  input, textarea{
-    width: 80%;
-}
+form label {
+    display: block;
+    font-size: 18px;
+    margin-bottom: 5px;
+    color: gray;
+    font-family: arial;
+  }
+
+  form input[type=text] {
+    color: #000;
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+
+  form input[type=text]#zip {
+    width: 51px;
+  }
+
+  form textarea {
+    height: 4.75rem;
+    width: 100%;
+    color: #000;
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
 .center{
     text-align: center;
 }
