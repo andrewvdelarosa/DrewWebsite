@@ -99,8 +99,8 @@ main p{
 } 
    
 .languages img{
-    max-height: 100px; 
-    margin-bottom: 20px;
+    max-height: 50px; 
+    margin-bottom: 10px;
 
 }
 /* contact section  */
@@ -117,53 +117,37 @@ main p{
 }
 .contactbox{
     display: flex;
-    /* flex-wrap: nowrap; */
-    justify-content: space-evenly;
+    justify-content: space-around;
+    align-items: center;
 }
 .links{
-    flex: 1;
+   
+}
+.contactform{
+   
 }
 
 .links ol{
    padding: 5%; 
 }
 .links img{
-    max-width: 70px;
+    max-width: 50px;
 }
 
 .contactbox ol, li{
     list-style: none;
     
 }
-.contactform{
-    flex: 2;
-}
+
 
 form label {
     display: block;
     font-size: 18px;
     margin-bottom: 5px;
-    color: gray;
-    font-family: arial;
+    color: white;
+    font-family: 'Exo 2', sans-serif;
   }
 
-  form input[type=text] {
-    color: #000;
-    font-size: 16px;
-    margin-bottom: 20px;
-  }
-
-  form input[type=text]#zip {
-    width: 51px;
-  }
-
-  form textarea {
-    height: 4.75rem;
-    width: 100%;
-    color: #000;
-    font-size: 16px;
-    margin-bottom: 20px;
-  }
 .center{
     text-align: center;
 }

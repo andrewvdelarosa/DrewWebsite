@@ -75,12 +75,16 @@
         </section>
 
 
-       
-            <div class="languages">
-                <div class=""><img src="images/css.png" alt="css"></div>
-                <div class=""><img src="images/html.png" alt="html"></div>
-                <div class=""><img src="images/js.png" alt="javascript"></div>
-            </div>
+
+        <div class="languages">
+            <div class=""><img src="images/css.png" alt="css"></div>
+            <div class=""><img src="images/html.png" alt="html"></div>
+            <div class=""><img src="images/js.png" alt="javascript"></div>
+        </div>
+
+        <section>
+            <h2>Portfolio</h2>
+        </section>
 
 
 
@@ -93,33 +97,33 @@
             <div class="contactbox">
                 <div class="links">
                     <ol>
-                        <li><a href="https://github.com/andrewvdelarosa" target="_blank"><img
-                                    src="images/github.png" alt="github"></a></li>
+                        <li><a href="https://github.com/andrewvdelarosa" target="_blank"><img src="images/github.png"
+                                    alt="github"></a></li>
                         <li><a href="https://www.linkedin.com/in/andrew-dela-rosa-37aa7013a/" target="_blank"><img
                                     src="images/Unknown.png" alt="linkedin"></a></li>
                     </ol>
                 </div>
 
+    
+
                 <div class="contactform">
+                    
                     <form action="https://formspree.io/mqkyngvn" method="POST">
-                        
+                       
                            
-                            <label for="name">
-                                Name:
-                                <input id="name" type="text" name="name">
-                            </label>
+                        <label for="name">Name:<br>
+                            <input id="name" type="text" name="name" placeholder="Your Name" required>
+                        </label>
 
+                        <label for="email">Email:<br>
+                            <input id="email" type="email" name="_replyto" placeholder="Your email" required>
+                        </label>
 
-                            <label for="email">
-                                Email:
-                                <input id="email" type="text" name="_replyto">
-                            </label>
-                        
-                        <label for="message">
-                        Message:
-                        <textarea id="message" name="message"></textarea></label>
-                        
-                        <button type="submit">Send</button>
+                        <label for="message">Message:<br>
+                            
+                            <textarea id="message" type="text" name="message" placeholder="Your message" required></textarea>
+                        </label>
+                        <input type="submit" value="Submit">
                     </form>
                 </div>
             </div>
